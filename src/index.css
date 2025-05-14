@@ -6,4 +6,21 @@
 .mole {
   background-image: url("/mole.png");
 }
-
+#container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#gameContainer{
+  display: grid;
+  place-content: center;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px ;
+  column-gap: 100px;
+  row-gap: 100px;
+}
+#tabsContainer{
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+}
